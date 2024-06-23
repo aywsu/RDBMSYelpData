@@ -1,0 +1,21 @@
+Successful 
+- reviewRating (avg rating)
+- reviewCount
+- A business is success if: 
+    - the reviewRating is higher than 3.5 
+    - consider reviewCount
+
+
+
+Popular 
+- reviewCount (lower weight)
+- numCheckIns (large weight)
+- A business is popular if: 
+    - the numCheckins is high/
+
+    -avg checkins (is our threshold) for that business category in that zipcode
+    >= checkins in that zipcode
+
+    - do the same for reivewCount
+        - avg review count for all businesses within that category and zipcode
+        >= reviewCount in that zipcode
